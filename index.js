@@ -14,3 +14,5 @@ wss.on("connection", (ws) => {
 
     ws.send("Welcome to the WebSocket server");
 });
+
+console.log("Server started");
